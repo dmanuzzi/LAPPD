@@ -1,0 +1,17 @@
+SPS2023allPos800V 20 100 0 1 -1.0 sqrt _baseline
+SPS2023allPos800V 40 100 0 1 -1.0 sqrt _baseline
+SPS2023allPos800V 60 100 0 1 -1.0 sqrt _baseline
+SPS2023allPos800V 80 100 0 1 -1.0 sqrt _baseline
+SPS2023allPos800V 100 100 0 1 -1.0 sqrt _baseline
+SPS2023allPos825V 20 100 0 1 -1.0 sqrt _baseline
+SPS2023allPos825V 40 100 0 1 -1.0 sqrt _baseline
+SPS2023allPos825V 60 100 0 1 -1.0 sqrt _baseline
+SPS2023allPos825V 80 100 0 1 -1.0 sqrt _baseline
+SPS2023allPos825V 100 100 0 1 -1.0 sqrt _baseline
+SPS2023center685V3mcp 100 100 0 1 -1.0 sqrt _baseline
+SPS2023center875V 20 100 0 1 -1.0 sqrt _baseline
+SPS2023center825V 20 100 0 1 -1.0 sqrt _baseline
+SPS2023center825V 40 100 0 1 -1.0 sqrt _baseline
+SPS2023center825V 60 100 0 1 -1.0 sqrt _baseline
+SPS2023center825V 80 100 0 1 -1.0 sqrt _baseline
+SPS2023center825V 100 100 0 1 -1.0 sqrt _baseline

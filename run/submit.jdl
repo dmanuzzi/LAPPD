@@ -1,0 +1,16 @@
+executable   = run.sh
+#executable   = run_positionRegressor.sh
+JobBatchName = LAPPDparScan
+arguments    = $(r) $(e) $(t) $(l) $(b) $(s) $(f) $$(Cpus) $(o)
+universe     = vanilla
+Requirements =  (machine == "lhcb-32g-24ht-b.cr.cnaf.infn.it" || machine == "lhcb-32g-24ht-d.cr.cnaf.infn.it" || machine == "lhcb-64g-32ht-b.cr.cnaf.infn.it" || machine == "lhcb-64g-40ht-b.cr.cnaf.infn.it" || machine == "lhcb-64g-40ht-c.cr.cnaf.infn.it" || machine == "lhcb-64g-40ht-d.cr.cnaf.infn.it" || machine == "lhcb-64g-40ht-e.cr.cnaf.infn.it" || machine == "lhcb-64g-40ht-f.cr.cnaf.infn.it" || machine == "lhcb-64g-40ht-g.cr.cnaf.infn.it" || machine == "lhcb-128g-56ht-a.cr.cnaf.infn.it" || machine == "lhcb-128g-56ht-b.cr.cnaf.infn.it" || machine == "lhcb-128g-56ht-c.cr.cnaf.infn.it" || machine == "lhcb-128g-56ht-d.cr.cnaf.infn.it" || machine == "lhcb-128g-64ht-b.cr.cnaf.infn.it" || machine == "lhcb-256g-96ht-a.cr.cnaf.infn.it") 
+#&& (RequestCpus > 55 )
+getenv       = True
+rank = Cpus
+request_cpus = Cpus
+request_memory = memory
+#request_cpus = 16
+output       = ../log/out/$(r)_$(e)Gev_$(t)_$(l)_$(b)_$(s)_$(f)$(o).txt
+error        = ../log/err/$(r)_$(e)Gev_$(t)_$(l)_$(b)_$(s)_$(f)$(o).txt
+log          = ../log/log/log.txt
+queue r, e, t, l, b, s, f, o from jobs.txt

@@ -1,0 +1,1 @@
+SPS2023allPos 20 100 0 1 -1.0 sqrt _baseline

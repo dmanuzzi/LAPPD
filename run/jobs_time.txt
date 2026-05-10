@@ -1,0 +1,5 @@
+SPS2023allPos825V 20 1000 0 1 -1.0 auto _wideTrain
+SPS2023allPos825V 40 1000 0 1 -1.0 auto _wideTrain
+SPS2023allPos825V 60 1000 0 1 -1.0 auto _wideTrain
+SPS2023allPos825V 80 1000 0 1 -1.0 auto _wideTrain
+SPS2023allPos825V 100 1000 0 1 -1.0 auto _wideTrain

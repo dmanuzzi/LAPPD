@@ -1,0 +1,12 @@
+executable   = run_getEff.sh
+JobBatchName = LAPPD_getEff
+arguments    = $(r) $(t)
+universe     = vanilla
+Requirements =  (machine == "lhcb-32g-24ht-b.cr.cnaf.infn.it" || machine == "lhcb-32g-24ht-d.cr.cnaf.infn.it" || machine == "lhcb-64g-32ht-b.cr.cnaf.infn.it" || machine == "lhcb-64g-40ht-b.cr.cnaf.infn.it" || machine == "lhcb-64g-40ht-c.cr.cnaf.infn.it" || machine == "lhcb-64g-40ht-d.cr.cnaf.infn.it" || machine == "lhcb-64g-40ht-e.cr.cnaf.infn.it" || machine == "lhcb-64g-40ht-f.cr.cnaf.infn.it" || machine == "lhcb-64g-40ht-g.cr.cnaf.infn.it" || machine == "lhcb-128g-56ht-a.cr.cnaf.infn.it" || machine == "lhcb-128g-56ht-b.cr.cnaf.infn.it" || machine == "lhcb-128g-56ht-c.cr.cnaf.infn.it" || machine == "lhcb-128g-56ht-d.cr.cnaf.infn.it" || machine == "lhcb-128g-64ht-b.cr.cnaf.infn.it" || machine == "lhcb-256g-96ht-a.cr.cnaf.infn.it") 
+#&& (RequestCpus > 55 )
+getenv       = True
+request_cpus = 1
+output       = ../log/out/getEff_$(r)_$(t).txt
+error        = ../log/err/getEff_$(r)_$(t).txt
+log          = ../log/log/getEff.txt
+queue r, t from jobs_getEff.txt
