@@ -1,0 +1,14 @@
+Info in <TCanvas::Print>: pdf file .//c_dt_cfd.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_max.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_max_zoom.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_max_zooom.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_xy.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_MCP.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF.pdf has been created
+Warning in <Fit>: Fit data is empty 
+Traceback (most recent call last):
+  File "/home/LHCB-T3/dmanuzzi/LAPPD/2023julySPS/out/SPS2023allPos_40GeV_100_0_1_-1.0_sqrt_baseline/../../src/get_resT.py", line 168, in <module>
+    mu_cfd, mu_cfd_err, sigma_cfd, sigma_cfd_err = fitGausAndDraw('c_resT_CFD', h_resT_CFD.GetValue(),'pe1')
+  File "/home/LHCB-T3/dmanuzzi/LAPPD/2023julySPS/out/SPS2023allPos_40GeV_100_0_1_-1.0_sqrt_baseline/../../src/get_resT.py", line 135, in fitGausAndDraw
+    func.SetName('gaus_fit_'+h.GetName())
+ReferenceError: attempt to access a null-pointer

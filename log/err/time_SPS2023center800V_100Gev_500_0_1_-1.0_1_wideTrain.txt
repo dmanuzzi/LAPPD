@@ -1,0 +1,135 @@
+[Parallel(n_jobs=16)]: Using backend ThreadingBackend with 16 concurrent workers.
+Traceback (most recent call last):
+  File "/home/LHCB-T3/dmanuzzi/LAPPD/2023julySPS/out/SPS2023center800V_100GeV_500_0_1_-1.0_1_wideTrain/../../src/GBDT.py", line 241, in <module>
+    regr.fit(X_train, y_train)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_102rc1_LHCB_7/x86_64-centos7-gcc11-opt/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 387, in fit
+    trees = Parallel(n_jobs=self.n_jobs, verbose=self.verbose,
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_102rc1_LHCB_7/x86_64-centos7-gcc11-opt/lib/python3.9/site-packages/joblib/parallel.py", line 1054, in __call__
+    self.retrieve()
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_102rc1_LHCB_7/x86_64-centos7-gcc11-opt/lib/python3.9/site-packages/joblib/parallel.py", line 933, in retrieve
+    self._output.extend(job.get(timeout=self.timeout))
+  File "/cvmfs/sft.cern.ch/lcg/releases/Python/3.9.6-b0f98/x86_64-centos7-gcc11-opt/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+  File "/cvmfs/sft.cern.ch/lcg/releases/Python/3.9.6-b0f98/x86_64-centos7-gcc11-opt/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_102rc1_LHCB_7/x86_64-centos7-gcc11-opt/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 595, in __call__
+    return self.func(*args, **kwargs)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_102rc1_LHCB_7/x86_64-centos7-gcc11-opt/lib/python3.9/site-packages/joblib/parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_102rc1_LHCB_7/x86_64-centos7-gcc11-opt/lib/python3.9/site-packages/joblib/parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_102rc1_LHCB_7/x86_64-centos7-gcc11-opt/lib/python3.9/site-packages/sklearn/utils/fixes.py", line 222, in __call__
+    return self.function(*args, **kwargs)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_102rc1_LHCB_7/x86_64-centos7-gcc11-opt/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 169, in _parallel_build_trees
+    tree.fit(X, y, sample_weight=curr_sample_weight, check_input=False)
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_102rc1_LHCB_7/x86_64-centos7-gcc11-opt/lib/python3.9/site-packages/sklearn/tree/_classes.py", line 1252, in fit
+    super().fit(
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_102rc1_LHCB_7/x86_64-centos7-gcc11-opt/lib/python3.9/site-packages/sklearn/tree/_classes.py", line 265, in fit
+    raise ValueError("Invalid value for max_features. "
+ValueError: Invalid value for max_features. Allowed string values are 'auto', 'sqrt' or 'log2'.
+Error in <TTree::ReadFile>: Cannot open file: ./output_train_SPS2023center800V_100GeV_500_0_1_-1.0_1_wideTrain.dat
+Warning in <Fit>: Fit data is empty 
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00002b1e3f6e460c in waitpid () from /lib64/libc.so.6
+#1  0x00002b1e3f661f62 in do_system () from /lib64/libc.so.6
+#2  0x00002b1e3ec7eeec in TUnixSystem::StackTrace() () from /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.00-165a8/x86_64-centos7-gcc11-opt/bin/../lib/libCore.so
+#3  0x00002b1e3ec7c5e5 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.00-165a8/x86_64-centos7-gcc11-opt/bin/../lib/libCore.so
+#4  <signal handler called>
+#5  0x00002b1e3e8a32b5 in ?? ()
+#6  0x00002b1e3e986150 in audit_list_string ()
+#7  0x00002b1e3eb7d7f0 in ?? () from /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.00-165a8/x86_64-centos7-gcc11-opt/bin/../lib/libCore.so
+#8  0x00000000004006a0 in ?? ()
+#9  0x0000000000000000 in ?? ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00002b1e3e8a32b5 in ?? ()
+#6  0x00002b1e3e986150 in audit_list_string ()
+#7  0x00002b1e3eb7d7f0 in ?? () from /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.26.00-165a8/x86_64-centos7-gcc11-opt/bin/../lib/libCore.so
+#8  0x00000000004006a0 in ?? ()
+#9  0x0000000000000000 in ?? ()
+===========================================================
+
+
+cat: resolution.txt: File o directory non esistente
+Error in <TTree::ReadFile>: Cannot open file: output_evalMoreVar_SPS2023center800V_100GeV_500_0_1_-1.0_1_wideTrain.dat
+input_line_75:2:28: error: use of undeclared identifier 't'
+auto lambda0 = [](){return t-tt
+                           ^
+input_line_75:2:30: error: use of undeclared identifier 'tt'
+auto lambda0 = [](){return t-tt
+                             ^
+input_line_79:2:28: error: use of undeclared identifier 't'
+auto lambda0 = [](){return t-tt
+                           ^
+input_line_79:2:30: error: use of undeclared identifier 'tt'
+auto lambda0 = [](){return t-tt
+                             ^
+Traceback (most recent call last):
+  File "/home/LHCB-T3/dmanuzzi/LAPPD/2023julySPS/out/SPS2023center800V_100GeV_500_0_1_-1.0_1_wideTrain/../../src/get_resT.py", line 38, in <module>
+    rdf = rdf.Define('dt_rf', 't-tt')
+cppyy.gbl.std.runtime_error: Template method resolution failed:
+  ROOT::RDF::RInterface<ROOT::Detail::RDF::RLoopManager,void> ROOT::RDF::RInterface<ROOT::Detail::RDF::RLoopManager,void>::Define(basic_string_view<char,char_traits<char> > name, basic_string_view<char,char_traits<char> > expression) =>
+    runtime_error: 
+RDataFrame: An error occurred during just-in-time compilation. The lines above might indicate the cause of the crash
+ All RDF objects that have not run an event loop yet should be considered in an invalid state.
+
+  ROOT::RDF::RInterface<ROOT::Detail::RDF::RLoopManager,void> ROOT::RDF::RInterface<ROOT::Detail::RDF::RLoopManager,void>::Define(basic_string_view<char,char_traits<char> > name, basic_string_view<char,char_traits<char> > expression) =>
+    runtime_error: 
+RDataFrame: An error occurred during just-in-time compilation. The lines above might indicate the cause of the crash
+ All RDF objects that have not run an event loop yet should be considered in an invalid state.
+
+Error in <TTree::ReadFile>: Cannot open file: output_data_SPS2023center800V_100GeV_500_0_1_-1.0_1_wideTrain.dat
+input_line_73:2:28: error: use of undeclared identifier 'max0'
+auto lambda0 = [](){return max0+max1+max2+max3
+                           ^
+input_line_73:2:33: error: use of undeclared identifier 'max1'
+auto lambda0 = [](){return max0+max1+max2+max3
+                                ^
+input_line_73:2:38: error: use of undeclared identifier 'max2'
+auto lambda0 = [](){return max0+max1+max2+max3
+                                     ^
+input_line_73:2:43: error: use of undeclared identifier 'max3'
+auto lambda0 = [](){return max0+max1+max2+max3
+                                          ^
+input_line_77:2:28: error: use of undeclared identifier 'max0'
+auto lambda0 = [](){return max0+max1+max2+max3
+                           ^
+input_line_77:2:33: error: use of undeclared identifier 'max1'
+auto lambda0 = [](){return max0+max1+max2+max3
+                                ^
+input_line_77:2:38: error: use of undeclared identifier 'max2'
+auto lambda0 = [](){return max0+max1+max2+max3
+                                     ^
+input_line_77:2:43: error: use of undeclared identifier 'max3'
+auto lambda0 = [](){return max0+max1+max2+max3
+                                          ^
+Traceback (most recent call last):
+  File "/home/LHCB-T3/dmanuzzi/LAPPD/2023julySPS/out/SPS2023center800V_100GeV_500_0_1_-1.0_1_wideTrain/../../src/getEff_v2.py", line 35, in <module>
+    rdf = rdf.Define('smax', 'max0+max1+max2+max3')
+cppyy.gbl.std.runtime_error: Template method resolution failed:
+  ROOT::RDF::RInterface<ROOT::Detail::RDF::RLoopManager,void> ROOT::RDF::RInterface<ROOT::Detail::RDF::RLoopManager,void>::Define(basic_string_view<char,char_traits<char> > name, basic_string_view<char,char_traits<char> > expression) =>
+    runtime_error: 
+RDataFrame: An error occurred during just-in-time compilation. The lines above might indicate the cause of the crash
+ All RDF objects that have not run an event loop yet should be considered in an invalid state.
+
+  ROOT::RDF::RInterface<ROOT::Detail::RDF::RLoopManager,void> ROOT::RDF::RInterface<ROOT::Detail::RDF::RLoopManager,void>::Define(basic_string_view<char,char_traits<char> > name, basic_string_view<char,char_traits<char> > expression) =>
+    runtime_error: 
+RDataFrame: An error occurred during just-in-time compilation. The lines above might indicate the cause of the crash
+ All RDF objects that have not run an event loop yet should be considered in an invalid state.
+

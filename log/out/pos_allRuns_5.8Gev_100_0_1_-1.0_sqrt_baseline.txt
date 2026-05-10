@@ -1,0 +1,4 @@
+allRuns 5.8 100 0 16 _baseline
+runs 80
+allRuns_5.8GeV_100_0_1_-1.0_sqrt_baseline
+max_samples = None

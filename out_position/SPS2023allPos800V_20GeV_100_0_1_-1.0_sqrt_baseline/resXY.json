@@ -1,0 +1,123 @@
+{
+  "config": "output_eval_SPS2023allPos800V_20GeV_100_0_1_-1.0_sqrt_baseline",
+  "mu_x": [
+    0.09623931889827333
+  ],
+  "mu_err_x": [
+    0.059667320687805184
+  ],
+  "sigma_x": [
+    2.6600424417503996
+  ],
+  "sigma_err_x": [
+    0.053251234037735795
+  ],
+  "mu_x_baseline": [
+    0.3406966888153436
+  ],
+  "mu_err_x_baseline": [
+    0.06495421204372298
+  ],
+  "sigma_x_baseline": [
+    2.5934584330233657
+  ],
+  "sigma_err_x_baseline": [
+    0.053311734935270305
+  ],
+  "mu_x_baselineX": [
+    0.332682747959406
+  ],
+  "mu_err_x_baselineX": [
+    0.06351715868717522
+  ],
+  "sigma_x_baselineX": [
+    2.62601423262466
+  ],
+  "sigma_err_x_baselineX": [
+    0.0523123403793897
+  ],
+  "mu_x_reduced": [
+    -0.014290406090776331
+  ],
+  "mu_err_x_reduced": [
+    0.10632596384855703
+  ],
+  "sigma_x_reduced": [
+    2.4415367678207334
+  ],
+  "sigma_err_x_reduced": [
+    0.08426542770021084
+  ],
+  "mu_x_reducedX": [
+    -0.15395649411131787
+  ],
+  "mu_err_x_reducedX": [
+    0.07800096094793751
+  ],
+  "sigma_x_reducedX": [
+    2.4391293167027475
+  ],
+  "sigma_err_x_reducedX": [
+    0.061242916773126765
+  ],
+  "mu_y": [
+    0.11089209907815281
+  ],
+  "mu_err_y": [
+    0.05076616809766964
+  ],
+  "sigma_y": [
+    2.684106113480074
+  ],
+  "sigma_err_y": [
+    0.044307440899925776
+  ],
+  "mu_y_baseline": [
+    0.0213266548786379
+  ],
+  "mu_err_y_baseline": [
+    0.057838881488827695
+  ],
+  "sigma_y_baseline": [
+    2.692439418893613
+  ],
+  "sigma_err_y_baseline": [
+    0.04992250775429552
+  ],
+  "mu_y_baseliney": [
+    0.030524230924245277
+  ],
+  "mu_err_y_baseliney": [
+    0.05090455136704049
+  ],
+  "sigma_y_baseliney": [
+    2.6458004301437557
+  ],
+  "sigma_err_y_baseliney": [
+    0.04382870461901689
+  ],
+  "mu_y_reduced": [
+    0.7255966730237902
+  ],
+  "mu_err_y_reduced": [
+    0.09722621268540547
+  ],
+  "sigma_y_reduced": [
+    2.656976925063296
+  ],
+  "sigma_err_y_reduced": [
+    0.07932472330830764
+  ],
+  "mu_y_reducedy": [
+    0.5932987200841747
+  ],
+  "mu_err_y_reducedy": [
+    0.06257838461508239
+  ],
+  "sigma_y_reducedy": [
+    2.5244568516354864
+  ],
+  "sigma_err_y_reducedy": [
+    0.05104944535073619
+  ]
+}

@@ -1,0 +1,33 @@
+[Parallel(n_jobs=16)]: Using backend ThreadingBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=16)]: Done 100 out of 100 | elapsed:    1.2s finished
+[Parallel(n_jobs=16)]: Using backend ThreadingBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=16)]: Done 100 out of 100 | elapsed:    0.1s finished
+[Parallel(n_jobs=16)]: Using backend ThreadingBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=16)]: Done 100 out of 100 | elapsed:    0.0s finished
+[Parallel(n_jobs=16)]: Using backend ThreadingBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=16)]: Done 100 out of 100 | elapsed:    0.1s finished
+[Parallel(n_jobs=16)]: Using backend ThreadingBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=16)]: Done 100 out of 100 | elapsed:    0.1s finished
+Traceback (most recent call last):
+  File "/home/LHCB-T3/dmanuzzi/LAPPD/2023julySPS/out/SPS2023allPos_20GeV_100_0_1_-1.0_sqrt_baseline/../../src/GBDT.py", line 245, in <module>
+    pickle.dump(bdt,outFile)
+NameError: name 'bdt' is not defined
+Info in <TCanvas::Print>: pdf file .//c_dt_cfd.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_max.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_max_zoom.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_max_zooom.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_xy.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_MCP.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF.pdf has been created
+Warning in <Fit>: Fit data is empty 
+Traceback (most recent call last):
+  File "/home/LHCB-T3/dmanuzzi/LAPPD/2023julySPS/out/SPS2023allPos_20GeV_100_0_1_-1.0_sqrt_baseline/../../src/get_resT.py", line 168, in <module>
+    mu_cfd, mu_cfd_err, sigma_cfd, sigma_cfd_err = fitGausAndDraw('c_resT_CFD', h_resT_CFD.GetValue(),'pe1')
+  File "/home/LHCB-T3/dmanuzzi/LAPPD/2023julySPS/out/SPS2023allPos_20GeV_100_0_1_-1.0_sqrt_baseline/../../src/get_resT.py", line 135, in fitGausAndDraw
+    func.SetName('gaus_fit_'+h.GetName())
+ReferenceError: attempt to access a null-pointer

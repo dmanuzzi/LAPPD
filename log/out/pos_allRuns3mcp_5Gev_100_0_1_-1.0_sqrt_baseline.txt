@@ -1,0 +1,4 @@
+allRuns3mcp 5 100 0 16 _baseline
+runs 0 1 3 4 7 8 9 10 11
+allRuns3mcp_5GeV_100_0_1_-1.0_sqrt_baseline
+max_samples = None

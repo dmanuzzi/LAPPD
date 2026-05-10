@@ -1,0 +1,74 @@
+[Parallel(n_jobs=16)]: Using backend ThreadingBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=16)]: Done 168 tasks      | elapsed:    0.6s
+[Parallel(n_jobs=16)]: Done 418 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=16)]: Done 500 out of 500 | elapsed:    1.7s finished
+[Parallel(n_jobs=16)]: Using backend ThreadingBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=16)]: Done 168 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=16)]: Done 418 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=16)]: Done 500 out of 500 | elapsed:    0.3s finished
+[Parallel(n_jobs=16)]: Using backend ThreadingBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=16)]: Done 168 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=16)]: Done 418 tasks      | elapsed:    0.2s
+[Parallel(n_jobs=16)]: Done 500 out of 500 | elapsed:    0.2s finished
+[Parallel(n_jobs=16)]: Using backend ThreadingBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=16)]: Done 168 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=16)]: Done 418 tasks      | elapsed:    0.2s
+[Parallel(n_jobs=16)]: Done 500 out of 500 | elapsed:    0.2s finished
+[Parallel(n_jobs=16)]: Using backend ThreadingBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=16)]: Done 168 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=16)]: Done 418 tasks      | elapsed:    0.2s
+[Parallel(n_jobs=16)]: Done 500 out of 500 | elapsed:    0.2s finished
+Info in <TCanvas::Print>: pdf file .//c_dt_cfd.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_max.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_max_zoom.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_max_zooom.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_xy.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_MCP.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_CFD.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_pos_0.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_mcp_pos_0.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_pos_1.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_mcp_pos_1.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_pos_2.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_mcp_pos_2.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_pos_3.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_mcp_pos_3.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_pos_4.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_mcp_pos_4.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_pos_5.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_mcp_pos_5.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_pos_6.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_mcp_pos_6.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_pos_7.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_mcp_pos_7.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_pos_8.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_mcp_pos_8.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_max_000.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_max_0010.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_max_0015.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_max_0020.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_max_0025.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_max_0030.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_max_0035.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_max_0040.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_max_0045.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_max_0050.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_max_0100.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_max_0125.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_resT_RF_max_1000.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_smax.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_smax_zoom.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_smax_zooom.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_xy_data.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_xy_eff_smax_cut_0140.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_xy_eff_smax_cut_0160.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_xy_eff_smax_cut_0180.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_xy_eff_smax_cut_0200.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_xy_eff_smax_cut_0220.pdf has been created
+Info in <TCanvas::Print>: pdf file .//c_xy_eff_smax_cut_1000.pdf has been created

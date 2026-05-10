@@ -1,0 +1,4 @@
+run36 5 100 0 16 _baseline
+runs 36
+run36_5GeV_100_0_1_-1.0_sqrt_baseline
+max_samples = None

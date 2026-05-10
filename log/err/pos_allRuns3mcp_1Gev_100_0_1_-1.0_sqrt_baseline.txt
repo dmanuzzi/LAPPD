@@ -1,0 +1,30 @@
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/cvmfs/sft.cern.ch/lcg/releases/Python/3.9.6-b0f98/x86_64-centos7-gcc11-opt/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/LHCB-T3/dmanuzzi/LAPPD/2023julySPS/out_position/allRuns3mcp_1GeV_100_0_1_-1.0_sqrt_baseline/../../src/positionRegressor.py", line 110, in read_file
+    data = T['T'].arrays({'data':interpretation},library='np')['data']
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_102rc1_LHCB_7/x86_64-centos7-gcc11-opt/lib/python3.9/site-packages/uproot/reading.py", line 2096, in __getitem__
+    return self.key(where).get()
+  File "/cvmfs/sft.cern.ch/lcg/views/LCG_102rc1_LHCB_7/x86_64-centos7-gcc11-opt/lib/python3.9/site-packages/uproot/reading.py", line 2046, in key
+    raise uproot.KeyInFileError(
+uproot.exceptions.KeyInFileError: not found: 'T' (with any cycle number)
+
+    Available keys: (none!)
+
+in file /storage/gpfs_data/local/lhcb/users/vagnoni/2022_december//mergedana_21.root
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/LHCB-T3/dmanuzzi/LAPPD/2023julySPS/out_position/allRuns3mcp_1GeV_100_0_1_-1.0_sqrt_baseline/../../src/positionRegressor.py", line 145, in <module>
+    for dframe in pool.imap_unordered(read_file, args.runs):
+  File "/cvmfs/sft.cern.ch/lcg/releases/Python/3.9.6-b0f98/x86_64-centos7-gcc11-opt/lib/python3.9/multiprocessing/pool.py", line 870, in next
+    raise value
+uproot.exceptions.KeyInFileError: not found: 'T' (with any cycle number)
+
+    Available keys: (none!)
+
+in file /storage/gpfs_data/local/lhcb/users/vagnoni/2022_december//mergedana_21.root

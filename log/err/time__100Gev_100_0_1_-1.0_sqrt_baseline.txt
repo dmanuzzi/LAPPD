@@ -1,0 +1,5 @@
+usage: GBDT.py [-h] [-od OUTDIR] [-o OUTFILE] [-r RUNS [RUNS ...]]
+               [-v VARIABLES [VARIABLES ...]] [-t THREADS] [-nt NTREES]
+               [-nl MAXLEAVES] [-ms MAXSAMPLES] [-b BOOTSTRAP]
+               [-mf MAXFEATURES]
+GBDT.py: error: argument -ms/--maxSamples: invalid float value: 'sqrt'

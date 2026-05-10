@@ -1,0 +1,4 @@
+risk train 145239.752750
+risk test 1007985.541903
+score train 0.866500
+score test 0.022710
